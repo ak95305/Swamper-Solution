@@ -314,7 +314,13 @@ footer .con {
     content: "-";
     margin-right: 10px;
 }
-
+.lwr-footer{
+    padding: 20px 0;
+    text-align: center;
+    background-color: #2e58ba;
+    color: #fff;
+    font: 14px;
+}
 
 
 /* Media Queries */
