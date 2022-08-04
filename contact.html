@@ -39,7 +39,9 @@
             <div class="container">
                 <div class="nav d-flex align-items-center justify-content-between">
                     <div class="logo-img">
-                        <img src="assets/logo.png" alt="logo">
+                        <a href="/">
+                            <img src="assets/logo.png" alt="logo">
+                        </a>
                     </div>
 
                     <input type="checkbox" id="nav-check">
@@ -51,15 +53,21 @@
                         </label>
                     </div>
                     <ul class="nav-links">
-                        <li><a href="/">Home</a></li>
+                        <li><a href="/" class="active">Home</a></li>
                         <li><a href="services.html">Services</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html" class="active">Contact Us</a></li>
-                        <li><a href="#" class="cta-btn">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li class="login-btn">
+                            <label href="#" class="cta-btn" for="login-list">
                                 <i class="fas fa-circle-user"></i>
                                 <span>Sign In</span>
                                 <i class="fas fa-chevron-down"></i>
-                            </a>
+                            </label>
+                            <input type="checkbox" id="login-list" style="display: none;">
+                            <ul class="login-submenu">
+                                <li><a href="signup-opt.html">Register</a></li>
+                                <li><a href="">Sign In</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
