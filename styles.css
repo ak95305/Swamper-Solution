@@ -99,6 +99,43 @@ i.circle {
 
 
 
+
+
+/* Job Staff */
+.job-staff{
+    padding: 8px 0;
+    position: sticky;
+    top: 0;
+    background-color: #2e58ba;
+    z-index: 999;    
+}
+.job-staff .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap ;
+}
+.job-staff .buttons > a{
+    padding: 4px 40px;
+    border-radius: 3px;
+    background-color: #fff;
+    font-weight: 500;
+    border: 3px solid #fff;
+    font-size: 14px;
+}
+
+.job-staff .buttons > a:hover{
+    background-color: #2e58ba;
+    color: #fff;
+}
+
+
+
+
+
+
+
 /* Header */
 header {
     padding: 20px 0;
@@ -480,7 +517,8 @@ section.services h1 {
 }
 
 .form-control,
-textarea {
+textarea,
+.form-select {
     max-width: 400px;
     border-radius: 0;
     border: 1px solid #aaa;
@@ -1046,7 +1084,14 @@ button.sign-btn:hover {
     background: #fff;
     color: #da0032;
 }
-
+.role-info textarea{
+    max-width: 100%;
+}
+.staff-job-form button{
+    background-color: #2e58ba;
+    padding: 10px 50px;
+    color: #fff;
+}
 
 
 
